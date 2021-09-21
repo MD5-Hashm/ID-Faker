@@ -5,8 +5,8 @@ from faker import Faker
 fake = Faker('en_CA')
 
 date = str(datetime.date.today())
-fn = fake.first_name_male()
-fln = fake.last_name_male()
+fn = fake.first_name_male() #Change 'male' to 'female' for female names
+fln = fake.last_name_male() #Change 'male' to 'female' for female names
 fa = fake.address()
 fj = fake.job()
 fc = fake.company()
